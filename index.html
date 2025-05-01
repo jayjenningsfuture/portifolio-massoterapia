@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Jenny Massoterapeuta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f8f5f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #a8c0a8, #c9d6c9);
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #2f4f4f;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #2f4f4f;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #5b8c5a;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #47624f;
+    }
+    .services, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .service, .testimonial {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .service:hover, .testimonial:hover {
+      transform: translateY(-5px);
+    }
+    .service h3 {
+      margin-bottom: 0.5rem;
+      color: #3a5a40;
+    }
+    .button {
+      background-color: #5b8c5a;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1.5rem;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #4a7448;
+    }
+    footer {
+      background-color: #a8c0a8;
+      text-align: center;
+      padding: 2rem;
+      color: #2f4f4f;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sofia Luz - Massoterapeuta</h1>
+    <nav>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou massoterapeuta especializada em bem-estar físico e energético. Com toques conscientes e técnicas terapêuticas, ajudo você a aliviar tensões, reduzir o estresse e reconectar-se consigo mesmo. Atuo com amor, intuição e profundo respeito ao seu momento.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Massagem Relaxante</h3>
+        <p>60 min de puro alívio das tensões. Ideal para estresse e ansiedade.</p>
+        <p><strong>Valor:</strong> R$ 150,00</p>
+      </div>
+      <div class="service">
+        <h3>Drenagem Linfática</h3>
+        <p>Estimula a circulação e reduz inchaços.</p>
+        <p><strong>Valor:</strong> R$ 150,00</p>
+      </div>
+      <div class="service">
+        <h3>Massagem Energética</h3>
+        <p>Toques suaves que equilibram corpo e mente.</p>
+        <p><strong>Valor:</strong> R$ 150,00</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Agende sua sessão</h2>
+    <p>Entre em contato pelo WhatsApp para marcar sua sessão ou tirar dúvidas.</p>
+    <a class="button" href="https://wa.me/11971730382" target="_blank">Agendar pelo WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jeniffer |Carreira - Massoterapia com Alma. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
